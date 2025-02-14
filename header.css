@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #1e1f26;
+    color: white;
+    z-index: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Left section styles */
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo svg {
+    width: 35px;
+    height: 56px;
+    fill: white;
+}
+
+.left-text h1 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.follow-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.follow-line h1{
+    font-size: 15px;
+    color: gray;
+}
+
+.follow-line h1:hover {
+    color: white;
+}
+
+.follow-line button {
+    height: 16px;
+    width: 60px;
+    padding: 6px 12px;
+    font-size: 9px;
+    border: 1px solid #444857;
+    background-color: #52cd72;
+    color: black;
+    padding: 2px 0px 12px 0px;
+}
+
+.follow-line button:hover {
+    background-color: rgb(36, 140, 70);
+    color: white;
+}
+
+.website-name {
+    color: white;
+    font-size: 19.5px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+/* Right section styles */
+.right-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    height: 44px;
+    width: auto;
+    border-radius: 3px;
+    background-color: #454953;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: #2c303a;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.heart-button {
+    height: 44px;
+    width: 44px;
+    border-radius: 3px;
+    background-color: #454953;
+    color: white;
+    cursor: pointer;
+}
+
+.heart-button svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+/* Hide the "Love" text */
+.ScreenReaderText-module_root-jASUi {
+    display: none;
+}
+
+.heart-button:hover {
+    background-color: #2c303a;
+}
+
+.title {
+    height: 927px;
+    width: auto;
+    display: block;
+}
+
+.title h1 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 20px;
+}
