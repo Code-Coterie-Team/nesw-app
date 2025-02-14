@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="header.css">
-    <title>html task</title>
+    <link rel="stylesheet" href="body-part.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>The NewYork Times</title>
 </head>
 <body>
+    <!-- Header Section -->
     <header class="header">
         <div class="left-section">
-            <div class="logo"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3 88 34.8 73 44.9 54.3 32.4zm-8.6 0v20L27.1 44.8 12 34.8zM8.6 42.8 19.3 50 8.6 57.2zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2 34.8 50 50 39.8 65.2 50zm4.3 27.5v-20l18.6-12.5 15 10.1zm37.1-30.5L80.7 50l10.8-7.2z"></path></svg></div>
+            <div class="logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3 88 34.8 73 44.9 54.3 32.4zm-8.6 0v20L27.1 44.8 12 34.8zM8.6 42.8 19.3 50 8.6 57.2zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2 34.8 50 50 39.8 65.2 50zm4.3 27.5v-20l18.6-12.5 15 10.1zm37.1-30.5L80.7 50l10.8-7.2z"></path>
+                </svg>
+            </div>
             <div class="left-text">
                 <div class="follow-line">
                     <h1>Farshad Janmohammadi</h1>
@@ -19,15 +26,147 @@
             </div>
         </div>
         <div class="right-section">
-            <button title="Love" data-anon="true" data-view="full" data-item="Pen" data-hashid="xxoKjYa" class="Button-module_root-xw+9D EditorHeaderPen-module_loveButton-7F910 loves heart-button"><svg viewBox="-2 0 105 92" xmlns="http://www.w3.org/2000/svg" class="LoveButtonIcon-module_root-3tVfn"><path d="M85.24 2.67C72.29-3.08 55.75 2.67 50 14.9 44.25 2 27-3.8 14.76 2.67 1.1 9.14-5.37 25 5.42 44.38 13.33 58 27 68.11 50 86.81 73.73 68.11 87.39 58 94.58 44.38c10.79-18.7 4.32-35.24-9.34-41.71Z"></path></svg><span class="ScreenReaderText-module_root-jASUi">Love</span></button>
-            <button><a href="https://codepen.io/farshadjanmohammadi/pen/xxoKjYa">View Source Code</a></button>
-            <button><a href="https://codepen.io/farshadjanmohammadi/pen/xxoKjYa">Sign Up</a></button>
-            <button><a href="https://codepen.io/farshadjanmohammadi/pen/xxoKjYa">Log In</a></button>
+            <button class="heart-button" title="Love">
+                <svg viewBox="-2 0 105 92" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M85.24 2.67C72.29-3.08 55.75 2.67 50 14.9 44.25 2 27-3.8 14.76 2.67 1.1 9.14-5.37 25 5.42 44.38 13.33 58 27 68.11 50 86.81 73.73 68.11 87.39 58 94.58 44.38c10.79-18.7 4.32-35.24-9.34-41.71Z"></path>
+                </svg>
+                <span class="ScreenReaderText-module_root-jASUi">Love</span>
+            </button>
+            <button><a href="#">View Source Code</a></button>
+            <button><a href="#">Sign Up</a></button>
+            <button><a href="#">Log In</a></button>
         </div>
     </header>
+
+    <!-- Title Section -->
     <div class="title">
         <h1>The NewYork Times</h1>
         <h6>23/06/2017 Friday</h6>
     </div>
+
+    <!-- Main Content -->
+    <div class="body-part">
+        <!-- Articles Section -->
+        <div class="article-section">
+            <div class="articleone">
+                <img src="Public/Image/golden-dog.jpg" alt="Dog at work">
+                <h1>Today Is "National Take Your Dog to Work Day"</h1>
+                <p>If you're lucky enough to work from home, every day is "Take Your Dog to Work Day." But most people aren't, so today is the one day a year that many companies allow their employees to bring their pups with them. Some workplaces are so fantastic that dogs are welcome all year round! While it's obviously not recommended for dogs to be brought to work sites that are dangerous for them or where they'll get in the way, such as an operating room or a factory floor, offices can be the perfect environment for pets.</p>
+            </div>
+
+            <div class="articletwo-and-three">
+                <div class="articletwo">
+                    <img src="Public/Image/article2.jpg" alt="Amazon drone delivery">
+                    <h1>The future of Amazon drone deliveries</h1>
+                    <p>Amazon (AMZN, Tech30) has filed for a patent for beehive-like towers that would serve as multi-level fulfillment centers for its delivery drones to take off and land. The facilities would be built vertically to blend in with high rises in urban areas. Amazon envisions each city would have one.</p>
+                </div>
+
+                <div class="articlethree">
+                    <img src="Public/Image/article2.jpg" alt="Sushi">
+                    <h1>Japanese foods we love-Sushi</h1>
+                    <p>Without a doubt, sushi is one of Japan's greatest gastronomical gifts to the world. Almost poetic in its simplicity, good sushi relies on two things: the freshness of the ingredients and the knife skills of the chef.</p>
+                </div>
+            </div>
+
+            <div class="articlefour">
+                <img src="Public/Image/article4.jpg" alt="Rooftop bar">
+                <h1>New York City's best rooftop bars</h1>
+                <p>There's something about being far above the hubbub of the Big Apple's streets, especially in the summertime, when humidity levels soar and the concrete feels like it's emanating heat waves. "Being on a New York City rooftop gives you this special pleasure of feeling part of the city, inside it, but at a distance," says Ray Chung, director of design at The Johnson Studio, the firm behind the rooftop lounge at The Wit Hotel in Chicago, among other projects.</p>
+            </div>
+
+            <div class="articlefive-to-seven">
+                <div class="articlefive">
+                    <img src="Public/Image/article5.jpg" alt="Chef Gaggan Anand">
+                    <h1>Meet Gaggan Anand, the 'world's best' Indian chef</h1>
+                    <p>Gaggan was sitting in a Singapore ballroom attending the Asia's 50 Best Restaurant Awards, waiting in agony to find out whether his eponymous Bangkok-based restaurant could hold onto the number three spot it grabbed last year.</p>
+                </div>
+
+                <div class="articlesix">
+                    <img src="Public/Image/article6.jpg" alt="Newport scenery">
+                    <h1>The best things to do and see in Newport</h1>
+                    <p>Many of those cliches about postcard-pretty coastal New England towns got their start in the same place: Newport, Rhode Island. The town is best known for being a summer getaway for America's aristocracy during the Gilded Age.</p>
+                </div>
+
+                <div class="articleseven">
+                    <img src="Public/Image/article7.jpg" alt="Rescued dogs">
+                    <h1>Sixteen Dogs Find Forever Homes After Being Rescued</h1>
+                    <p>Just minutes before the Humane Society Shelter in Bangor, Maine closed for the day on Tuesday, they only had one lone puppy left who had yet to be adopted.</p>
+                </div>
+            </div>
+
+            <div class="articleeight">
+                <img src="Public/Image/article8.jpg" alt="Facebook logo">
+                <h1>What Facebook's new mission can and can't fix</h1>
+                <p>With nearly 2 billion people around the world checking in monthly, it makes sense that Facebook is dealing with some very sticky issues. The social network is facing increasing pressure to address them head on.</p>
+            </div>
+        </div>
+
+        <!-- Pin Section -->
+        <div class="pin-section">
+            <div class="pinone">
+                <h1>India</h1>
+                <img src="Public/Image/pin1.jpg" alt="PSLV-C38 launch">
+                <p>India successfully launches PSLV-C38 from Sriharikota</p>
+            </div>
+
+            <div class="pintwo">
+                <h1>Cricket</h1>
+                <img src="Public/Image/pin2.jpg" alt="Cricket match">
+                <p>WIvIND: Rain plays spoilsport after Shikhar Dhawan's 87, India placed comfortably</p>
+            </div>
+
+            <div class="pinthree">
+                <h1>Education</h1>
+                <img src="Public/Image/pin3.jpg" alt="Education news">
+                <p>NEET results declared, five transgenders qualify</p>
+            </div>
+
+            <div class="pinfour">
+                <h1>Science & Tech</h1>
+                <img src="Public/Image/pin4.jpg" alt="ISRO Cartosat">
+                <p>Smart eye in the sky: How ISRO's Cartosat-2 will boost India's military surveillance capabilities</p>
+            </div>
+
+            <div class="pinfive">
+                <h1>Bollywood</h1>
+                <img src="Public/Image/pin5.jpg" alt="Tubelight movie">
+                <p>Box Office: Salman Khan's 'Tubelight' opens lower than expectations on Day 1!</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Politics</h3>
+                <ul>
+                    <li><a href="#">Congress</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">The nine</a></li>
+                    <li><a href="#">Trumpmerica</a></li>
+                    <li><a href="#">State</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Entertainment</h3>
+                <ul>
+                    <li><a href="#">Star</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Screen</a></li>
+                    <li><a href="#">Culture</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Technology</h3>
+                <ul>
+                    <li><a href="#">Startup</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Future</a></li>
+                    <li><a href="#">Gadget</a></li>
+                    <li><a href="#">Bussiness</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
